@@ -1,7 +1,7 @@
 export default function InvoiceViewModal({ invoice, onClose }) {
   return (
     <div className="fixed inset-0 bg-white/30 backdrop-blur-md flex justify-center items-center z-50">
-      <div className="bg-white rounded-xl shadow-2xl w-[700px]">
+      <div className="bg-white rounded-xl shadow-2xl w-175">
 
         {/* Header */}
         <div className="flex justify-between px-6 py-4 border-b">
